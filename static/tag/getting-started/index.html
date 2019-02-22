@@ -1,0 +1,1005 @@
+<!doctype html>
+
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="de"><!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+
+<title>Getting Started - Composer - Andrew Stokes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if IE]>
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+
+<!-- Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700,300,100' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css">
+<!--  font-family: 'Fjalla One', sans-serif; -->
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<!--  font-family: 'Karla', sans-serif;  -->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<!--  font-family: 'Josefin Sans', sans-serif;  -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<!--  font-family: 'Montserrat', sans-serif;  -->
+<!--    -->
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/styles.css?v=3c74bf8836" />
+<link rel="stylesheet" href="/assets/css/animate.css?v=3c74bf8836" />
+<link rel="stylesheet" href="/assets/css/lity.min.css?v=3c74bf8836" />
+
+<!-- Modernizr -->
+
+<script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+
+<!-- Soundcloud Plangular etc -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
+<script src="http://d2v52k3cl9vedd.cloudfront.net/plangular/3.1.0/plangular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+<!-- Icons -->
+
+<link rel="shortcut icon" href="/favicon.png" />
+
+<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png?v=3c74bf8836" />
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png?v=3c74bf8836" />
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png?v=3c74bf8836" />
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png?v=3c74bf8836" />
+<!-- For the iPad mini and the first- and second-generation iPad on iOS ≥ 7: -->
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png?v=3c74bf8836" />
+<!-- For the iPad mini and the first- and second-generation iPad on iOS ≤ 6: -->
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png?v=3c74bf8836" />
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png?v=3c74bf8836" />
+
+<!-- RSS -->
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"/>
+<link rel="stylesheet" href="/assets/css/font-awesome.css?v=3c74bf8836"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <link rel="canonical" href="andyhstokes.github.io/tag/getting-started/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+    <meta property="og:site_name" content="Composer - Andrew Stokes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Getting Started - Composer - Andrew Stokes" />
+    <meta property="og:url" content="andyhstokes.github.io/tag/getting-started/" />
+    <meta property="article:publisher" content="https://www.facebook.com/ghost" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Getting Started - Composer - Andrew Stokes" />
+    <meta name="twitter:url" content="andyhstokes.github.io/tag/getting-started/" />
+    <meta name="twitter:site" content="@tryghost" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Series",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Composer - Andrew Stokes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "andyhstokes.github.io/content/images/2019/02/logo_600.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "url": "andyhstokes.github.io/tag/getting-started/",
+    "name": "Getting Started",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "andyhstokes.github.io/"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 2.15" />
+    <link rel="alternate" type="application/rss+xml" title="Composer - Andrew Stokes" href="andyhstokes.github.io/rss/" />
+
+</head>
+
+<body class="tag-template tag-getting-started data-smooth-scroll">
+
+<section class="scrollwrapper" data-smooth-scroll>
+<div class="border"></div>
+<section class="sc-container"></section>
+<section class="container">
+<div id="progress"></div>
+<section class="intro" style="background-image: url(/assets/img/wallpaper.jpg);">
+    <div class="intro-copy">
+    </div>
+    <div class="intro-logo">
+      <a class="blog-logo vertical wow fadeIn" href="andyhstokes.github.io"><img src="/assets/img/logo_600.png?v=3c74bf8836" alt="" /></a>
+    </div>
+      <div class="lrg-6 l">
+          <div class="header_left">
+            <ul class="vertical intro-inner">
+            <!--  <img src="https://placeimg.com/128/128/people"/> -->
+            </ul>
+          </div>
+      </div>
+      <div class="lrg-6 r">
+          <div class="header_right">
+            <div class="url wow fadeInDown">andrewstokes.co</div>
+            <div class="quote threequarters">
+            <div class="title wow fadeInUp">Andrew Stokes</div>
+            <div class="sub wow fadeInUp">Composer</div>
+            </div>
+          </div>
+      </div>
+      <div class="clearfix"></div>
+
+</section>
+<div id="preloader">
+    <div class="loader">
+    <img src="andyhstokes.github.io/content/images/2019/02/logo_600.png">
+    </div>
+</div>
+<section class="aboutme content">
+    <div class="wrapper">
+      <div class="content-stage">
+        <!--
+        <div class="about-text">
+
+          <a href="#about-soundcloud" class="scroll-arrow">
+          <i class="fa fa-chevron-down mt-50" aria-hidden="true"></i>
+          </a>
+
+        </div>
+        -->
+        <div class="about-soundcloud" id="about-soundcloud">
+          <section class="soundcloud mt-150 mb-200" ng-app="app">
+
+
+
+<div class="row mt-100 border-top">
+  <div class="lrg-12" id="large-header">
+      <canvas class="lrg-12" id="demo-canvas" width="100%" height="200" style="width: 100%; height:500px;"></canvas>
+      <div class="sc-logo-con lrg-12">
+
+      </div>
+      <div class="sc-moveup">
+        <a href="" class='scPlay'>
+        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
+        <svg version="1.1"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+        x="0px" y="0px" width="80px" height="80px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+        xml:space="preserve">
+        <polygon class='triangle' id="XMLID_18_" fill="none" stroke-width="14" stroke-linecap="round" stroke-linejoin="square" stroke-miterlimit="10" points="
+        73.5,62.5 148.5,105.8 73.5,149.1 "/>
+        <circle class='circle' id="XMLID_17_" fill="none"  stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"/>
+        </svg>
+        </a>
+    <div plangular="https://soundcloud.com/andyhstokes/deus-ex-machina-wip-inspired-by-ghost-in-the-shell" class="sc lrg-12">
+            <button
+            title="Play/Pause"
+            class="sc-button"
+            ng-click="playPause()"
+            >
+
+
+
+
+            <div class="sc-row">
+
+            <p class="sc-cell lrg-3 sc-time-l">{{ currentTime | hhmmss }} --</p>
+
+            <p class="sc-cell lrg-6 sc-title">{{track.title}}</p>
+
+
+            <p class="sc-cell lrg-3 sc-time-r">-- {{ duration | hhmmss }}</p>
+            </div>
+          </button>
+        </div>
+    <div plangular="https://soundcloud.com/andyhstokes/andrew-stokes-the-ascent" class="sc lrg-12">
+                <button
+                title="Play/Pause"
+                class="sc-button"
+                ng-click="playPause()"
+                >
+
+
+
+
+                <div class="sc-row">
+
+                <p class="sc-cell lrg-3 sc-time-l">{{ currentTime | hhmmss }} --</p>
+
+                <p class="sc-cell lrg-6 sc-title single-line">{{track.title}}</p>
+
+
+                <p class="sc-cell lrg-3 sc-time-r">-- {{ duration | hhmmss }}</p>
+                </div>
+              </button>
+            </div>
+
+      <div plangular="https://soundcloud.com/andyhstokes/halcyon" class="sc lrg-12">
+                  <button
+                  title="Play/Pause"
+                  class="sc-button"
+                  ng-click="playPause()"
+                  >
+
+
+
+
+                  <div class="sc-row">
+
+                  <p class="sc-cell lrg-3 sc-time-l">{{ currentTime | hhmmss }} --</p>
+
+                  <p class="sc-cell lrg-6 sc-title single-line">{{track.title}}</p>
+
+
+                  <p class="sc-cell lrg-3 sc-time-r">-- {{ duration | hhmmss }}</p>
+                  </div>
+                </button>
+              </div>
+        </div>
+  </div>
+</div>
+<!--
+<div class="row mb-100">
+  <div class="lrg-12">
+    <div class="soundcloud-more">
+        <a href="http://www.soundcloud.com/andyhstokes">
+        <i class="ion-more" style="color: #f1a75c;"></i>
+        </a>
+    </div>
+  </div>
+</div>
+-->
+
+</section>
+        </div>
+        <div class="about-skills">
+          <!-- Skills Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="skills mb-200">
+    <div class="row">
+    <div class="lrg-12 quote-container wow fadeInDown">
+          <blockquote class="quote">
+            <footer class="quote__footer">
+                <cite class="quote__cite">
+                  Hi, I'm a Multifaceted COMPOSER from the United Kingdom. I specialise in sculpting emotive, detailed and atmospheric
+                  soundtracks for Games, TV & Film.
+                </br>
+                <span>- Andrew Stokes MSc</span></cite>
+            </footer>
+          </blockquote>
+    </div>
+</section>
+<!-- Skills Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--SERVICES-->
+<section class="services mt-100 mb-200">
+  <div class="container row mt-100 mb-100 wow fadeIn">
+    <h2 style="">Services</h2>
+    <div class="closeSchool" style="color: #d3b486 !important;">P</div>
+    <div class="container mt-100">
+      <ul class="lrg-12">
+        <li class="lrg-4">
+          <div class="content-box" style="background-color: #1d1b1c;">
+            <div class="state">
+              <div class="vertical">
+              <div class="content-box-icon">
+                  <i style="color: #d3b486 !important;">X</i>
+              </div>
+              <h5 class="content-box-title">Composition</h5>
+              </div>
+            </div>
+            <div class="schools">
+              <ul class="school-list">
+
+                <li>
+                  <div class="location">
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #F48C8C;">Cubase</span>
+                          <span class="bar" data-bar='{ "color": "#F48C8C", "delay": 1000 }'>
+                          <span class="pct">90%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #d0f58c;">Ableton</span>
+                          <span class="bar" data-bar='{ "color": "#d0f58c", "delay": 1000 }'>
+                          <span class="pct">95%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #8cf5d5;">Orchestral</span>
+                          <span class="bar" data-bar='{ "color": "#8cf5d5", "delay": 1000 }'>
+                          <span class="pct">80%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #918cf5;">Synthesis</span>
+                          <span class="bar" data-bar='{ "color": "#918cf5", "delay": 1000 }'>
+                          <span class="pct">80%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #f58ccb;">Interactive Scores - Audio Middleware</span>
+                          <span class="bar" data-bar='{ "color": "#f58ccb", "delay": 1000 }'>
+                          <span class="pct">85%</span>
+                          </span>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- </> STATE BLOCK -->
+        <li class="lrg-4">
+          <div class="content-box" style="background-color: #1d1b1c;">
+            <div class="state">
+              <div class="vertical">
+              <div class="content-box-icon">
+                  <i style="color: #d3b486 !important; font-family: 'Glyphter' !important;">U</i>
+              </div>
+              <h5 class="content-box-title">Programming</h5>
+              </div>
+            </div>
+            <div class="schools">
+              <ul class="school-list">
+
+                <li>
+                  <div class="location">
+                      <div class="bar_container">
+                        <span class="bar-name" style="color: #F48C8C;">Wwise</span>
+                        <span class="bar" data-bar='{ "color": "#F48C8C", "delay": 1000 }'>
+                        <span class="pct">85%</span>
+                        </span>
+                      </div>
+                      <div class="bar_container">
+                        <span class="bar-name" style="color: #d0f58c;">fMod</span>
+                        <span class="bar" data-bar='{ "color": "#d0f58c", "delay": 1000 }'>
+                        <span class="pct">90%</span>
+                        </span>
+                      </div>
+                      <div class="bar_container">
+                        <span class="bar-name" style="color: #8cf5d5;">MaxMSP</span>
+                        <span class="bar" data-bar='{ "color": "#8cf5d5", "delay": 1000 }'>
+                        <span class="pct">75%</span>
+                        </span>
+                      </div>
+                      <div class="bar_container">
+                        <span class="bar-name" style="color: #918cf5;">Puredata</span>
+                        <span class="bar" data-bar='{ "color": "#918cf5", "delay": 1000 }'>
+                        <span class="pct">80%</span>
+                        </span>
+                      </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #f58ccb;">C# / Javascript</span>
+                          <span class="bar" data-bar='{ "color": "#f58ccb", "delay": 1000 }'>
+                          <span class="pct">30%</span>
+                          </span>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- </> STATE BLOCK -->
+        <li class="lrg-4">
+          <div class="content-box" style="background-color: #1d1b1c;">
+            <div class="state">
+              <div class="vertical">
+              <div class="content-box-icon">
+                  <i style="color: #d3b486 !important;">W</i>
+              </div>
+              <h5 class="content-box-title">Sound Design</h5>
+              </div>
+            </div>
+            <div class="schools">
+              <ul class="school-list">
+
+                <li>
+                  <div class="location">
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #F48C8C;">Custom Effects</span>
+                          <span class="bar" data-bar='{ "color": "#F48C8C", "delay": 1000 }'>
+                          <span class="pct">80%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #d0f58c;">Synthesis</span>
+                          <span class="bar" data-bar='{ "color": "#d0f58c", "delay": 1000 }'>
+                          <span class="pct">90%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #8cf5d5;">Samples</span>
+                          <span class="bar" data-bar='{ "color": "#8cf5d5", "delay": 1000 }'>
+                          <span class="pct">90%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #918cf5;">Foley</span>
+                          <span class="bar" data-bar='{ "color": "#918cf5", "delay": 1000 }'>
+                          <span class="pct">50%</span>
+                          </span>
+                        </div>
+                        <div class="bar_container">
+                          <span class="bar-name" style="color: #f58ccb;">Unity/Unreal</span>
+                          <span class="bar" data-bar='{ "color": "#f58ccb", "delay": 1000 }'>
+                          <span class="pct">70%</span>
+                          </span>
+                        </div>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <!-- </> STATE BLOCK -->
+      </ul>
+
+    </div>
+    <!-- </> SCHOOL CONTAINER -->
+  </div>
+</section>
+<!--/.SERVICES END-->
+        </div>
+
+    </div>
+  </div>
+</section>
+<section class="content">
+      <div class="about-contact">
+        	<!-- Contact -->
+  <section class="contact">
+    <div class="wow fadeIn">
+			<div class="row">
+				<div class="lrg-12">
+					<div class="section-title">
+						<h2 class="mb-50">GET IN TOUCH</h2>
+					</div>
+				</div>
+			</div>
+      <div class="row mt-100 mb-100">
+        <div class="lrg-12">
+            <!-- CONTACT FORM -->
+            <div class="contact-form bottom">
+                <form id="main-contact-form" name="contact-form" action="https://formspree.io/info@andrewstokes.co" method="POST">
+                <div class="lrg-6 form-left">
+                    <div class="form-group">
+                        <input type="text" name="name" id="your-name" class="form-control" required="required" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="_subject" id="company" class="form-control" required="required" placeholder="Company">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="_replyto" id="email" class="form-control" required="required" placeholder="Email Id">
+                    </div>
+                </div>
+                <div class="lrg-6 form-right">
+                    <div class="form-group">
+                        <textarea name="message" id="your-message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" value="Send" id="submit_btn" class="default-btn gray-btn"> Send <i style="font-family: 'Glyphter';font-style: normal !important;" aria-hidden="true">N</i></button>
+                    </div>
+                </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+	</section>
+      </div>
+</section>
+<h1 class="notification">Sorry, this website don't support your browser.</h1>
+
+<!-- 
+	<!-- Footer -->
+	<footer class="main-footer">
+		<svg preserveAspectRatio="none" viewBox="0 0 100 102" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+			<path d="M0 0 L50 100 L100 0 Z" fill="#171717" stroke="#171717"></path>
+		</svg>
+            <div class="container wow fadeIn">
+                <div class="row mt-100 mb-50 footer-widgets">
+                    <!-- Start Contact Widget -->
+                    <div class="lrg-12">
+                        <div class="footer-widget contact-widget">
+                            <h2 class="mb-50">Thanks for Visiting!</h2>
+                            <p>If you like what you've seen you can find me on these social platforms</p>
+                            <ul class="social-icons">
+
+                                <li>
+                                    <a class="twitter" href="http://www.twitter.com/andyhstokes"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a class="soundcloud" href="http://www.soundcloud.com/andyhstokes"><i class="fa fa-soundcloud"></i></a>
+                                </li>
+																<!--
+                                <li>
+                                    <a class="instgram" href="#"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a class="discord" href="https://discord.gg/e5SZZbW"><i class="fa fa-discord"></i></a>
+                                </li>
+															-->
+
+                            </ul>
+                        </div>
+                    </div><!-- .col-md-3 -->
+                    <!-- End Contact Widget -->
+
+
+                </div><!-- .row -->
+
+                <!-- Start Copyright -->
+                <div class="copyright-section">
+                    <div class="row">
+                        <div class="lrg-12">
+                            <p>&copy; 2016  -  All Rights Reserved   <a href="#">Andrew Stokes</a> </p>
+                        </div><!-- .col-md-6 -->
+                    </div><!-- .row -->
+                </div>
+                <!-- End Copyright -->
+            </div>
+	</footer>
+ -->
+<a href="#0" class="cd-top">Top</a>
+</section>
+</section>
+
+
+<!-- JavaScript -->
+<script>
+// https://github.com/hmongouachon/mgGlitch
+
+$( function() {
+		$( ".glitch-img" ).mgGlitch({
+          // set 'true' to stop the plugin
+				  destroy : false,
+          // set 'false' to stop glitching
+          glitch: true,
+          // set 'false' to stop scaling
+          scale: true,
+          // set 'false' to stop glitch blending
+          blend : true,
+          // select blend mode type
+          blendModeType : 'hue',
+          // set min time for glitch 1 elem
+          glitch1TimeMin : 200,
+          // set max time for glitch 1 elem
+          glitch1TimeMax : 400,
+          // set min time for glitch 2 elem
+          glitch2TimeMin : 10,
+          // set max time for glitch 2 elem
+          glitch2TimeMax : 100,
+		});
+});
+</script>
+<script>
+(function() {
+
+    var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
+
+    // Main
+    initHeader();
+    initAnimation();
+
+    function initHeader() {
+        width = window.innerWidth/2;
+        height = 600;
+        target = {x: width/2, y: height/2};
+
+        largeHeader = document.getElementById('large-header');
+        largeHeader.style.height = height+'px';
+
+        canvas = document.getElementById('demo-canvas');
+        canvas.width = width;
+        canvas.height = height;
+        ctx = canvas.getContext('2d');
+
+        // create points
+        points = [];
+        for(var x = 0; x < width; x = x + width/20) {
+            for(var y = 0; y < height; y = y + height/20) {
+                var px = x + Math.random()*width/20;
+                var py = y + Math.random()*height/20;
+                var p = {x: px, originX: px, y: py, originY: py };
+                points.push(p);
+            }
+        }
+
+        // for each point find the 5 closest points
+        for(var i = 0; i < points.length; i++) {
+            var closest = [];
+            var p1 = points[i];
+            for(var j = 0; j < points.length; j++) {
+                var p2 = points[j]
+                if(!(p1 == p2)) {
+                    var placed = false;
+                    for(var k = 0; k < 5; k++) {
+                        if(!placed) {
+                            if(closest[k] == undefined) {
+                                closest[k] = p2;
+                                placed = true;
+                            }
+                        }
+                    }
+
+                    for(var k = 0; k < 5; k++) {
+                        if(!placed) {
+                            if(getDistance(p1, p2) < getDistance(p1, closest[k])) {
+                                closest[k] = p2;
+                                placed = true;
+                            }
+                        }
+                    }
+                }
+            }
+            p1.closest = closest;
+        }
+
+        // assign a circle to each point
+        for(var i in points) {
+            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            points[i].circle = c;
+        }
+    }
+
+    // Event handling
+    function addListeners() {
+        if(!('ontouchstart' in window)) {
+            window.addEventListener('mousemove', mouseMove);
+        }
+        window.addEventListener('scroll', scrollCheck);
+        window.addEventListener('resize', resize);
+    }
+
+    function mouseMove(e) {
+        var posx = posy = 0;
+        if (e.pageX || e.pageY) {
+            posx = e.pageX;
+            posy = e.pageY;
+        }
+        else if (e.clientX || e.clientY)    {
+            posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+            posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+        }
+        target.x = posx;
+        target.y = posy;
+    }
+
+    function scrollCheck() {
+        if(document.body.scrollTop > height) animateHeader = false;
+        else animateHeader = true;
+    }
+
+    function resize() {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        largeHeader.style.height = height+'px';
+        canvas.width = width;
+        canvas.height = height;
+    }
+
+    // animation
+    function initAnimation() {
+        animate();
+        for(var i in points) {
+            shiftPoint(points[i]);
+        }
+    }
+
+    function animate() {
+        if(animateHeader) {
+            ctx.clearRect(0,0,width,height);
+            for(var i in points) {
+                // detect points in range
+                if(Math.abs(getDistance(target, points[i])) < 4000) {
+                    points[i].active = 0.3;
+                    points[i].circle.active = 0.6;
+                } else if(Math.abs(getDistance(target, points[i])) < 20000) {
+                    points[i].active = 0.1;
+                    points[i].circle.active = 0.3;
+                } else if(Math.abs(getDistance(target, points[i])) < 40000) {
+                    points[i].active = 0.02;
+                    points[i].circle.active = 0.1;
+                } else {
+                    points[i].active = 0;
+                    points[i].circle.active = 0;
+                }
+
+                drawLines(points[i]);
+                points[i].circle.draw();
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    function shiftPoint(p) {
+        TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
+            y: p.originY-50+Math.random()*100, ease:Circ.easeInOut,
+            onComplete: function() {
+                shiftPoint(p);
+            }});
+    }
+
+    // Canvas manipulation
+    function drawLines(p) {
+        if(!p.active) return;
+        for(var i in p.closest) {
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(p.closest[i].x, p.closest[i].y);
+            ctx.strokeStyle = 'rgba(68,68,68,'+ p.active+')';
+            ctx.stroke();
+        }
+    }
+
+    function Circle(pos,rad,color) {
+        var _this = this;
+
+        // constructor
+        (function() {
+            _this.pos = pos || null;
+            _this.radius = rad || null;
+            _this.color = color || null;
+        })();
+
+        this.draw = function() {
+            if(!_this.active) return;
+            ctx.beginPath();
+            ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
+            ctx.fillStyle = 'rgba(197,81,222,'+ _this.active+')';
+            ctx.fill();
+        };
+    }
+
+    // Util
+    function getDistance(p1, p2) {
+        return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
+    }
+
+})();
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>if (typeof jQuery == 'undefined') { document.write(unescape("%3Cscript src='../assets/js/_libs/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E")); }</script>
+<script>
+function openSchool() {
+  $('.container li .content-box').click(function() {
+    if (!$(this).hasClass('active')) {
+      $(this).addClass('active');
+
+      var setLeftPos = $('.container li .content-box.active').position().left,
+        setRightPos = -setLeftPos + $('.container').width() - $(this).width(),
+        schoolBlock = $(this);
+      state = $(this).children('.state');
+
+      $(schoolBlock).css('left', setLeftPos);
+      $(schoolBlock).css('right', setRightPos);
+
+      $(schoolBlock).animate({
+        'bottom': '0',
+        'top': '0',
+        'min-width': ''
+      }, {
+        duration: 250,
+        queue: false
+      });
+      $(schoolBlock).animate({
+        'left': '0',
+        'right': '0'
+      }, {
+        duration: 250,
+        queue: false
+      });
+      $(state).animate({
+        width: '40%'
+      }, {
+        duration: 250,
+        queue: false
+      });
+
+      setTimeout(function() {
+        $('.schools').css('width', '59%');
+        $('.school-list').addClass('fade');
+        $('.closeSchool').addClass('active');
+      }, 300);
+
+      $('.closeSchool').click(function() {
+        $('.container li .content-box.active').dequeue().animate({
+          'bottom': '100%',
+          'top': '0',
+          'min-width': '33.33333%',
+          'left': setLeftPos,
+          'right': setRightPos
+        }, 250, function() {
+          $('.container li .content-box.active').removeClass('active');
+          var setLeftPos = 0;
+          var setRightPos = 0;
+
+        });
+        $(state).animate({
+          width: '96%'
+        }, {
+          duration: 120,
+          queue: false
+        });
+
+
+        $('.school-list').removeClass('fade');
+        $('.closeSchool').removeClass('active');
+      });
+    } else {
+      console.log('doesnt');
+    }
+  });
+}
+  function functionInit() {
+    openSchool();
+  }
+
+  $(function() {
+    functionInit();
+  });
+</script>
+<script src="/assets/js/wow.min.js?v=3c74bf8836"></script>
+<script>
+  new WOW().init();
+</script>
+<script>
+$('.sc-button').click( function(){
+    if ( $(this).hasClass('big') ) {
+        $(this).removeClass('big');
+    } else {
+        $('li a.current').removeClass('big');
+        $(this).addClass('big');
+    }
+});
+</script>
+<script>
+;( function( $ ) {
+	"use strict";
+
+	$( ".bar" ).each( function() {
+
+		var $bar = $( this ),
+			 $pct = $bar.find( ".pct" ),
+			 data = $bar.data( "bar" );
+
+		setTimeout( function() {
+
+			$bar
+				.css( "background-color", data.color )
+				.animate({
+					"width": $pct.html()
+				}, data.speed || 3000, function() {
+
+					$pct.css({
+						"color": data.color,
+						"opacity": 1
+					});
+
+				});
+
+		}, data.delay || 0 );
+
+	});
+
+})( jQuery );
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69861772-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script src="/assets/js/smoothscroll.js?v=3c74bf8836" type="text/javascript"></script>
+<script src="/assets/js/top.js?v=3c74bf8836" type="text/javascript"></script>
+<script src="/assets/js/lity.min.js?v=3c74bf8836" type="text/javascript"></script>
+<script src="/assets/js/scrollopacity.js?v=3c74bf8836" type="text/javascript"></script>
+<script src="/assets/js/remodal-min.js?v=3c74bf8836" type="text/javascript"></script>
+<!-- Preloader Script -->
+<script>
+  //
+    $(window).load(function() {
+        $('.loader').delay(200).fadeOut();
+        $('#preloader').delay(1600).fadeOut('slow');
+        $('body').delay(200).removeClass('noscroll');
+    })
+  //
+</script>
+<script>
+$(document).ready(function() {
+$("#slider-range-min").slider({
+  range: "min",
+  step: 100,
+  value: 1200,
+  min: 0,
+  max: 15000,
+  slide: function(event, ui) {
+    $("#amount").val("€" + ui.value);
+  },
+  change: function(event, ui) {
+    if (ui.value === 0) {
+      $("#amount").val("To be determined");
+    } else if (ui.value === 15000) {
+      $("#amount").val("€" + "15000 or more");
+    } else {
+      $("#amount").val("€" + $("#slider-range-min").slider("value"));
+    }
+  }
+});
+$("#amount").val("€" + $("#slider-range-min").slider("value"));
+
+});
+
+$(document).ready(function() {
+
+// -- autosize init --
+
+autosize($('textarea'));
+
+});
+</script>
+
+<!--http://labs.voronianski.com/get-soundplayer/ -->
+<!-- GIT || https://github.com/soundblogs/soundplayer-widget -->
+<script>
+  var app = angular.module('app', ['plangular'])
+    .config(function(plangularConfigProvider){
+      plangularConfigProvider.clientId = '51cff523763b64f5dba22a203fd8b754';
+    });
+</script>
+<script>
+function toggleTimeline1() {
+  document.getElementById("sc-timeline1").classList.toggle("sc-progress-on");
+  document.getElementById("sc-timeline1").classList.toggle("sc-progress-off");
+}
+</script>
+<script>
+function toggleTimeline2() {
+  document.getElementById("sc-timeline2").classList.toggle("sc-progress-on");
+  document.getElementById("sc-timeline2").classList.toggle("sc-progress-off");
+}
+</script>
+<script>
+function toggleTimeline3() {
+  document.getElementById("sc-timeline3").classList.toggle("sc-progress-on");
+  document.getElementById("sc-timeline3").classList.toggle("sc-progress-off");
+}
+</script>
+<script>
+function toggleTimeline4() {
+  document.getElementById("sc-timeline4").classList.toggle("sc-progress-on");
+  document.getElementById("sc-timeline4").classList.toggle("sc-progress-off");
+}
+</script>
+<script>
+function toggleTimeline5() {
+  document.getElementById("sc-timeline5").classList.toggle("sc-progress-on");
+  document.getElementById("sc-timeline5").classList.toggle("sc-progress-off");
+}
+</script>
+
+<!--[if lt IE 9 ]>
+<script src="/assets/js/polyfills/selectivizr.min.js?v=3c74bf8836"></script>
+<script src="/assets/js/polyfills/respond-1.1.0.min.js?v=3c74bf8836"></script>
+<![endif]-->
+
+</body>
+
+</html>
